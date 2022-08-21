@@ -27,7 +27,7 @@ st.sidebar.markdown(
     "Ce tableau de bord va vous aide creer votre video virale.")
 st.sidebar.markdown(
     " Pour commencer <ol><li> Entrer un  <i>hashtag</i> que vous souhaitez ananlyser</li> <li>Appuyer sur le bouton <i>Get Data</i>.</li> <li> Obtenez votre analyse</li></ol>", unsafe_allow_html=True)
-
+st.balloon()
 stats = {}
 id = dict()
 
