@@ -31,7 +31,7 @@ st.sidebar.markdown(
 stats = {}
 id = dict()
 
-st.info('Cliquer à deux reprises sur le bouton pour me réveiller !', icon="😪")
+st.info('Cette appli est mon premier concept, elle est susceptible de plus fonctionner car tiktok empêche le scrapping ! Merci à ceux qui voudront me soutenir par des propositions pour financer mes études', icon="😪")
 
 with open('export.json', 'r') as f:
     data = json.load(f)
